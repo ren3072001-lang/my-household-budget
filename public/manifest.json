@@ -1,0 +1,16 @@
+{
+  "name": "賢者の書斎 - Aura Analytics",
+  "short_name": "賢者の書斎",
+  "description": "均衡を重んじる知的マネー管理",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a1128",
+  "theme_color": "#b89947",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}

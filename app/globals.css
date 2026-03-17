@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0a1128;
+  --foreground: #f3f4f6;
+  --gold: #b89947;
+  --gold-muted: #8c763d;
+  --navy: #0a1128;
+  --navy-light: #162447;
+  --card: #111827;
+  --card-foreground: #f3f4f6;
+  --consumption: #64748b;
+  --investment: #b89947;
+  --waste: #9f1239;
+  --border: #374151;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-gold: var(--gold);
+  --color-gold-muted: var(--gold-muted);
+  --color-navy: var(--navy);
+  --color-navy-light: var(--navy-light);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-consumption: var(--consumption);
+  --color-investment: var(--investment);
+  --color-waste: var(--waste);
+  --color-border: var(--border);
+  --font-serif: "Playfair Display", "Merriweather", serif;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-serif);
+}
+
+.tremor-AreaChart-node {
+  stroke: var(--background) !important;
+}
